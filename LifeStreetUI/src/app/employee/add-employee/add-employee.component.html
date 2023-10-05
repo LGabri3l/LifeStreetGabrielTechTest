@@ -1,0 +1,53 @@
+<form [formGroup]="addEmployeeForm" (ngSubmit)="addEmployee()">
+
+    <div class="form-fgroup row">
+        <label class="col-sm-2 col-form-label">Details</label>
+        <div class="col-sm-10">
+            <input type="text" formControlName="EmployeeName" class="form-control mt-2" [(ngModel)]="EmployeeName"
+                placeholder="Employee Name">
+            <span class="text-danger"
+                *ngIf="addEmployeeForm.controls['EmployeeName'].dirty && addEmployeeForm.hasError('required','EmployeeName')">*Name
+                is required</span>
+
+            <input type="text" formControlName="StartDate" class="form-control mt-2" [(ngModel)]="StartDate"
+                placeholder="Start Date">
+            <span class="text-danger"
+                *ngIf="addEmployeeForm.controls['StartDate'].dirty && addEmployeeForm.hasError('required','StartDate')">*Start
+                Date
+                is required</span>
+
+            <input type="text" formControlName="Position" class="form-control mt-2" [(ngModel)]="Position"
+                placeholder="Position">
+            <span class="text-danger"
+                *ngIf="addEmployeeForm.controls['Position'].dirty && addEmployeeForm.hasError('required','Position')">*Position
+                is
+                required</span>
+
+            <input type="text" formControlName="EmpAddress" class="form-control mt-2" [(ngModel)]="EmpAddress"
+                placeholder="Address">
+            <span class="text-danger"
+                *ngIf="addEmployeeForm.controls['EmpAddress'].dirty && addEmployeeForm.hasError('required','EmpAddress')">*Address
+                is required</span>
+
+            <input type="text" formControlName="EmpPhone" class="form-control mt-2" [(ngModel)]="EmpPhone"
+                placeholder="Phone ">
+            <span class="text-danger"
+                *ngIf="addEmployeeForm.controls['EmpPhone'].dirty && addEmployeeForm.hasError('required','EmpPhone')">*Phone
+                is
+                required</span>
+
+
+        </div>
+    </div>
+
+    <button type="submit" [disabled]="!addEmployeeForm.valid" (click)="addEmployee()" *ngIf="employee.EmployeeID==0"
+        class="btn btn-primary">
+        Add
+    </button>
+
+    <button (click)="updateEmployee()" [disabled]="!addEmployeeForm.valid" *ngIf="employee.EmployeeID!=0"
+        class="btn btn-primary">
+        Update
+    </button>
+
+</form>

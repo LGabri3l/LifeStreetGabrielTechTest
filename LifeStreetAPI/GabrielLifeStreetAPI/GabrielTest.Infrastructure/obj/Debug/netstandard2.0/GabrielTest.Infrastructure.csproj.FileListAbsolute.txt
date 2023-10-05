@@ -1,0 +1,12 @@
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\bin\Debug\netstandard2.0\GabrielTest.Infrastructure.deps.json
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\bin\Debug\netstandard2.0\GabrielTest.Infrastructure.dll
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\bin\Debug\netstandard2.0\GabrielTest.Infrastructure.pdb
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\bin\Debug\netstandard2.0\GabrielTest.Core.dll
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\bin\Debug\netstandard2.0\GabrielTest.Core.pdb
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.AssemblyInfo.cs
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.csproj.CopyComplete
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.dll
+C:\Users\Luis Gabriel\source\repos\GabrielLifeStreetAPI\GabrielTest.Infrastructure\obj\Debug\netstandard2.0\GabrielTest.Infrastructure.pdb
